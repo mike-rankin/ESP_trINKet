@@ -1,20 +1,21 @@
 # ESP_trINKet
 ESP32 E-Ink Developement Board
 
-This design was an experiment using an E-Ink display. Another PCB revision is on the way that should allowing it to be powered from a battery. Right now it can only be powered using a microUSB cable.
+This design was an experiment using an E-Ink display. It can be powered off of a battery or USB cable. If a battery and USB cable are pluggin it together then it will charge the battery.
+
+This latest board revision has a number of ESP32 pins swapped around making it compatable with the gxEPD library.
 
 The programmer board is located at: https://github.com/mike-rankin/ESP32_Programmer
 
 The enclosure designed in Fusion360 is located here: https://www.thingiverse.com/thing:2675865
 
 Special thanks to:
-Drew at OSH Park for supplying the PCB @pdp7
-and @drewler for re-writing the Waveshare library so it will work on the BuyDisplay hardware
+Drew at OSH Park for supplying the PCB and Jean-Marc Zingg for the library. The project started out using the Waveshare library that was difficult to use. The gxEPD library is much better.
 
-The code right now does a hardware test verifying the display, sensors and wifi are functional are functional. If you manage to create something of your own I would love to see it by reaching me at @mikerankin
+The Sleep test code right now does a hardware test verifying the display, sensors and ESP32 are functional are functional. If you manage to create something of your own I would love to see it by reaching me at @mikerankin
 
-![display](https://user-images.githubusercontent.com/4991664/33353117-8969f55e-d482-11e7-8010-1b8fbf2f1f35.JPG)
+![display](https://user-images.githubusercontent.com/4991664/36948052-16d03688-1fab-11e8-93f0-e2dc1c604ed6.JPG)
 
-![main_board](https://user-images.githubusercontent.com/4991664/35421924-44e1ca34-021c-11e8-9731-1013fc73d78a.JPG)
+![img_0586](https://user-images.githubusercontent.com/4991664/36948177-12ac5f62-1fad-11e8-8ea0-a9e7b84919c0.JPG)
 
-![assembly](https://user-images.githubusercontent.com/4991664/35421961-8389127e-021c-11e8-9f65-cef3689e2313.JPG)
+![assembly](https://user-images.githubusercontent.com/4991664/36948044-f493323c-1faa-11e8-8492-41deb572bb8b.JPG)
