@@ -16,5 +16,6 @@ The Sleep test code right now does a hardware test verifying the display, sensor
 
 ![display](https://user-images.githubusercontent.com/4991664/36948052-16d03688-1fab-11e8-93f0-e2dc1c604ed6.JPG)
 
+![img_0586](https://user-images.githubusercontent.com/4991664/36948177-12ac5f62-1fad-11e8-8ea0-a9e7b84919c0.JPG)
 
 ![assembly](https://user-images.githubusercontent.com/4991664/36948044-f493323c-1faa-11e8-8492-41deb572bb8b.JPG)
